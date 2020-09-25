@@ -42,5 +42,5 @@ sudo apt-get install util-linux
 Run `sudo crontab -e` and insert the following line:
 
 ```
-@daily mongoadmin /sbin/fstrim /data
+@daily root /sbin/fstrim /data
 ```
