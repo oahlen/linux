@@ -25,7 +25,7 @@ sudo blkid
 
 ## Add entry in fstab (UUID from earlier)
 ```
-UUID={UUID}   /datadrive   xfs   defaults,nofail   1   2
+UUID={UUID}   /data   xfs   defaults,nofail   1   2
 ```
 
 ## Verify the disk (should be mounted at /data)
